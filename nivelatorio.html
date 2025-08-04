@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuentra la Palabra Oculta</title>
+</head>
+<body>
+  <h1>Encuentra la Palabra Oculta</h1>
+  <div class="word" id="wordDisplay">_ _ _ _ _</div>
+
+  <input type="text" id="letterInput" maxlength="1" autofocus>
+  
+  <div class="tries" id="tries">Tries: 0 / 6</div>
+  <div class="mistakes" id="mistakes">Mistakes: </div>
+  <div class="message" id="message"></div>
+
+  <button onclick="initGame()">Random</button>
+
+  <script src="nivelatorio.js"></script>
+</body>
+</html>
