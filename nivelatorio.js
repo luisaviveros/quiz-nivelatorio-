@@ -54,7 +54,7 @@ letterInput.addEventListener('keyup', (e) => {
   checkGameStatus();
 });
 
-
+window.onload = initGame;
 
 
 
